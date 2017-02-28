@@ -1,7 +1,7 @@
 #: help - Display callable targets.
 .PHONY: help
 help:
-	@echo "Reference card for usual actions Relate to the Vagrant environment."
+	@echo "Reference card for usual actions related to the Vagrant environment."
 	@echo "Here are available targets:"
 	@egrep -o "^#: (.+)" [Mm]akefile  | sed 's/#: /* /'
 
