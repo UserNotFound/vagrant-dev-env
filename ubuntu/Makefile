@@ -35,6 +35,7 @@ clean: destroy
 #: plugin - Install the VirtualBox guest additions plugin
 plugin:
 	vagrant plugin install vagrant-vbguest
+	vagrant plugin install vagrant-disksize
 
 #: update - Check the VM image for an updated version
 update:
