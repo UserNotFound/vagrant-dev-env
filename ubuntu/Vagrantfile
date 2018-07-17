@@ -10,10 +10,10 @@ Vagrant.configure(2) do |config|
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
 
-  # Uses the latest available cloud image of 16.04
+  # Uses the latest available cloud image of 18.04
   # https://www.ubuntu.com/cloud
-  # https://cloud-images.ubuntu.com/xenial/current/
-  config.vm.box = "ubuntu/xenial64"
+  # https://cloud-images.ubuntu.com/bionic/current/
+  config.vm.box = "ubuntu/bionic64"
 
 
   # Boxes will only be checked for updates to your curent version if
