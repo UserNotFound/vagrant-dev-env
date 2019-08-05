@@ -45,8 +45,8 @@ Vagrant.configure(2) do |config|
 
   # docker-engine and docker-compose for Ubuntu
    config.vm.provision "shell", inline: <<-SHELL
-     sudo sh /git/usernotfound/vagrant-dev-env/ubuntu/ubuntu-docker.sh
-     sudo sh /git/usernotfound/vagrant-dev-env/ubuntu/ubuntu-bats.sh
-     sudo sh /git/usernotfound/vagrant-dev-env/ubuntu/ubuntu-deps.sh
+     sudo DEBIAN_FRONTEND=noninteractive sh /git/usernotfound/vagrant-dev-env/ubuntu/ubuntu-deps.sh
+     sudo DEBIAN_FRONTEND=noninteractive sh /git/usernotfound/vagrant-dev-env/ubuntu/ubuntu-docker.sh
+     sudo DEBIAN_FRONTEND=noninteractive sh /git/usernotfound/vagrant-dev-env/ubuntu/ubuntu-bats.sh
    SHELL
 end
