@@ -11,8 +11,3 @@ help:
 ubuntu:
 	$(MAKE) -C ./ubuntu/ up
 
-#: centos - starts/resunmes the centos vm
-.PHONY: centos
-centos:
-	$(MAKE) -C ./centos/ up
-

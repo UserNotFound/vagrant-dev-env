@@ -1,2 +1,2 @@
 # vagrant-dev-env
-My vagrant configuration to run Ubuntu and CentOS easily on my Mac and PC
+My vagrant configuration to run Ubuntu with Docker easily on my Mac and PC. You just have Virtualbox and Vagrant installed on the host.
