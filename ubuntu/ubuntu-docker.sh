@@ -18,7 +18,7 @@ sudo service docker start
 
 # https://docs.docker.com/compose/install/
 
-sudo curl -L https://github.com/docker/compose/releases/download/1.10.0/run.sh > /tmp/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/1.24.1/run.sh > /tmp/docker-compose
 sudo mv /tmp/docker-compose /usr/bin/docker-compose
 sudo chmod +x /usr/bin/docker-compose
 sudo docker-compose --help
